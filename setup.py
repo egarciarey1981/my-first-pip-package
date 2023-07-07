@@ -4,5 +4,5 @@ setup(
     name='egarciarey1981-math',
     version='0.1.2',
     description='My first Pip Package',
-    packages=['math'],
+    py_modules=['math'],
 )
