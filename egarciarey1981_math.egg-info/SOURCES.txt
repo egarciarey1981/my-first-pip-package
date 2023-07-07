@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+egarciarey1981_math.egg-info/PKG-INFO
+egarciarey1981_math.egg-info/SOURCES.txt
+egarciarey1981_math.egg-info/dependency_links.txt
+egarciarey1981_math.egg-info/top_level.txt
