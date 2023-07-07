@@ -1,3 +1,9 @@
+## 0.1.3 (2023-07-07)
+
+### Fix
+
+- **setup.py**: change pakages by py_modules
+
 ## 0.1.2 (2023-07-07)
 
 ### Fix
