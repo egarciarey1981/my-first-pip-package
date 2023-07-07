@@ -1,8 +1,8 @@
-from setuptools import setup
+from distutils.core import setup
 
 setup(
     name='egarciarey1981-math',
-    version='0.1.4',
+    version='0.1.5',
     description='My first Pip Package',
-    py_modules=['egarciarey1981_math'],
+    packages=['math'],
 )
