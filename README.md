@@ -31,7 +31,7 @@ classifiers = [
 
 ## Instalación
 
-Para instalar la biblioteca, hay que ejecutar el siguiente comando:
+En el servidor donde queramos instalar la biblioteca, hay que ejecutar el siguiente comando:
 
 ```
 pip install git+https://github.com/egarciarey1981/my-first-pip-package#egg=math_egarciarey1981
@@ -39,7 +39,7 @@ pip install git+https://github.com/egarciarey1981/my-first-pip-package#egg=math_
 
 ## Uso
 
-Como con cualquier otra biblioteca, hay que importarla para poder utilizarla:
+Como con cualquier otra biblioteca de tercero, hay que importarla para poder utilizarla:
 
 ```
 from math_egarciarey1981.math import Math
