@@ -7,7 +7,7 @@ requires-python = ">=3.7"
 [tool]
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.1.10"
+version = "0.1.11"
 tag_format = "$version"
 
 [build-system]
