@@ -15,18 +15,13 @@ Para que todo el código que hagamos se considere una biblioteca, hay que crear 
 ```
 [project]
 name = "math_egarciarey1981"
-version = "0.0.1"
-authors = [
-  { name="Eliecer García Rey", email="egarciarey1981@gmail.com" },
-]
 description = "My first Pip Package"
-readme = "README.md"
+version = "0.0.1"
 requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 ```
 
 ## Instalación
@@ -34,7 +29,13 @@ classifiers = [
 En el servidor donde queramos instalar la biblioteca, hay que ejecutar el siguiente comando:
 
 ```
-pip install git+https://github.com/egarciarey1981/my-first-pip-package#egg=math_egarciarey1981
+pip install git+https://github.com/egarciarey1981/my-first-pip-package
+```
+
+Comprobar que se ha instalado correctamente:
+
+```
+pip list | grep math_egarciarey1981
 ```
 
 ## Uso
