@@ -1,7 +1,7 @@
 [project]
 name = "math_egarciarey1981"
 description = "My first Pip Package"
-version = "0.0.1"
+version = "0.1.13"
 requires-python = ">=3.7"
 
 [build-system]
