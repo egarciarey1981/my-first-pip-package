@@ -1,26 +1,15 @@
+[project]
+name = "math_egarciarey1981"
+description = "My first Pip Package"
+version = "0.0.1"
+requires-python = ">=3.7"
+
 [tool]
 [tool.commitizen]
 name = "cz_conventional_commits"
 version = "0.1.10"
 tag_format = "$version"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-[project]
-name = "math_egarciarey1981"
-version = "0.0.1"
-authors = [
-  { name="Eliecer García Rey", email="egarciarey1981@gmail.com" },
-]
-description = "My first Pip Package"
-readme = "README.md"
-requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
-
-[project.urls]
-"Homepage" = "https://github.com/egarciarey1981/my-first-pip-package"
-"Bug Tracker" = "https://github.com/egarciarey1981/my-first-pip-package/issues"
